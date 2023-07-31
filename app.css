@@ -1,0 +1,71 @@
+body{
+    background-color: #191414;
+    font-family: "Nunito",sans-serif;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+
+}
+#headinggroup h1{
+    font-weight: 100;
+    font-size: 3.5rem;
+    transition: transform 2s;
+}
+#headinggroup h1:hover{
+    transform: scale(1.25);
+}
+#redsaber{
+    color: #EB212E;
+}
+#bluesaber{
+    color: #15f2fd;
+}
+.starwarssection h2{
+    color: #ea1c2c;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+}
+.starwarssection2 h2{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+}
+.starwarssection3 h2{
+    color: rgb(21, 242, 253);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2rem;
+}
+p{
+    color: blanchedalmond;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+section{
+    margin-top: 100px;
+}
+.navbar.scrolled{
+    background: rgba(21, 242, 253,0.6);
+    transition: background 200ms;
+}
+@media(max-width:1200px)
+{
+    #headinggroup h1{
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+
+}
